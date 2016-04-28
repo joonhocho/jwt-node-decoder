@@ -1,6 +1,6 @@
 {
   "name": "jwt-node-decoder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Decodes JWT (JSON Web Token) and checks expiration date. A Node port of angular-jwt.",
   "main": "lib/index.js",
   "scripts": {
