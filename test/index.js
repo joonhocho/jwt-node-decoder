@@ -1,6 +1,5 @@
 import {expect} from 'chai';
 import {
-  urlBase64Decode,
   decodeToken,
   getTokenExpirationDate,
   isTokenExpired,

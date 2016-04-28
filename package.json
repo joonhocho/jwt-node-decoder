@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/joonhocho/jwt-node-decoder#readme",
   "dependencies": {
-    "abab": "^1.0.3"
+    "jwt-decode": "^2.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.7.7",
