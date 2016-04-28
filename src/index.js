@@ -1,4 +1,4 @@
-import atob from 'atob-lite';
+import {atob} from 'abab';
 
 export function urlBase64Decode(str) {
   let output = str.replace(/-/g, '+').replace(/_/g, '/');
@@ -14,7 +14,6 @@ export function urlBase64Decode(str) {
 
 export function decodeToken(token) {
   const parts = token.split('.');
-
   if (parts.length !== 3) {
     throw new Error('JWT must have 3 parts');
   }
@@ -29,7 +28,6 @@ export function decodeToken(token) {
 
 export function getTokenExpirationDate(token) {
   const decoded = decodeToken(token);
-
   if (decoded.exp == null) {
     return null;
   }
