@@ -1,5 +1,5 @@
 {
-  "name": "jwt-decoder",
+  "name": "jwt-node-decoder",
   "version": "0.0.1",
   "description": "Decodes JWT (JSON Web Token) and checks expiration date. A Node port of angular-jwt.",
   "main": "lib/index.js",
@@ -11,13 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joonhocho/jwt-decoder.git"
+    "url": "git+https://github.com/joonhocho/jwt-node-decoder.git"
   },
   "keywords": [
     "jwt",
     "JSON",
     "Web",
     "Token",
+    "node",
     "angular-jwt",
     "decoder",
     "expiration",
@@ -26,9 +27,9 @@
   "author": "Joon Ho Cho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joonhocho/jwt-decoder/issues"
+    "url": "https://github.com/joonhocho/jwt-node-decoder/issues"
   },
-  "homepage": "https://github.com/joonhocho/jwt-decoder#readme",
+  "homepage": "https://github.com/joonhocho/jwt-node-decoder#readme",
   "dependencies": {
     "atob-lite": "^1.0.0"
   },
