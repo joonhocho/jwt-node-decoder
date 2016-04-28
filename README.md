@@ -1,4 +1,4 @@
-# jwt-decoder
+# jwt-node-decoder
 Decodes JWT (JSON Web Token) and checks expiration date. Node version port from [angular-jwt](https://github.com/auth0/angular-jwt).
 Implemented on top of the official [jwt-decode](https://github.com/auth0/jwt-decode).
 
