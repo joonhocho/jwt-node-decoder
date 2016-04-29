@@ -17,7 +17,12 @@ import {
 ```
 
 Take a look at https://github.com/joonhocho/jwt-node-decoder/blob/master/test/index.js
-    
+
+
+### Dependencies
+ - Decoding JWT: https://github.com/auth0/jwt-decode
+
+
 ### LICENSE
     The MIT License (MIT)
     
