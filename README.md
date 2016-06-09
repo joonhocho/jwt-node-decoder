@@ -1,4 +1,10 @@
 # jwt-node-decoder
+[![Build Status](https://travis-ci.org/joonhocho/jwt-node-decoder.svg?branch=master)](https://travis-ci.org/joonhocho/jwt-node-decoder)
+[![Coverage Status](https://coveralls.io/repos/github/joonhocho/jwt-node-decoder/badge.svg?branch=master)](https://coveralls.io/github/joonhocho/jwt-node-decoder?branch=master)
+[![npm version](https://badge.fury.io/js/jwt-node-decoder.svg)](https://badge.fury.io/js/jwt-node-decoder)
+[![Dependency Status](https://david-dm.org/joonhocho/jwt-node-decoder.svg)](https://david-dm.org/joonhocho/jwt-node-decoder)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+
 Decodes JWT (JSON Web Token) and checks expiration date. Node version port from [angular-jwt](https://github.com/auth0/angular-jwt).
 Implemented on top of the official [jwt-decode](https://github.com/auth0/jwt-decode).
 
@@ -24,6 +30,7 @@ Take a look at https://github.com/joonhocho/jwt-node-decoder/blob/master/test/in
 
 
 ### LICENSE
+```
     The MIT License (MIT)
     
     Copyright (c) 2016 Joon Ho Cho
@@ -45,3 +52,4 @@ Take a look at https://github.com/joonhocho/jwt-node-decoder/blob/master/test/in
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
+```
